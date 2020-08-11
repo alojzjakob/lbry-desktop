@@ -31,6 +31,7 @@ const defaultState = {
     // UX
     [SETTINGS.EMAIL_COLLECTION_ACKNOWLEDGED]: false,
     [SETTINGS.ENABLE_SYNC]: IS_WEB,
+    [SETTINGS.ENABLE_PUBLISH_PREVIEW]: true,
 
     // UI
     [SETTINGS.LANGUAGE]: settingLanguage.find(language => SUPPORTED_LANGUAGES[language]),
