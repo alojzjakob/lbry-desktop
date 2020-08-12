@@ -52,14 +52,9 @@ class ModalPublishPreview extends React.PureComponent<Props> {
   }
 
   createRow(label: string, value: any) {
-    // Probably need to do the colon differently when in RTL mode. Don't want it to be part of the string
-    // to reduce redundant strings for translation.
     return (
       <tr>
-        <td>
-          {label}
-          {label ? ':' : ''}
-        </td>
+        <td>{label}</td>
         <td>{value}</td>
       </tr>
     );
