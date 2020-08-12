@@ -20,8 +20,8 @@ function PublishSettings(props: Props) {
       <FormField
         type="checkbox"
         name="sync_toggle"
-        label={__('Review changes before uploading.')}
-        checked={enablePublishPreview}
+        label={__('Skip preview and confirmation')}
+        checked={!enablePublishPreview}
         onChange={handleChange}
       />
     </div>

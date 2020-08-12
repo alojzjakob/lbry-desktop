@@ -162,7 +162,7 @@ class ModalPublishPreview extends React.PureComponent<Props> {
                 <FormField
                   type="checkbox"
                   name="sync_toggle"
-                  label={__("Don't show previews anymore.")}
+                  label={__('Skip preview and confirmation')}
                   checked={!enablePublishPreview}
                   onChange={() => setEnablePublishPreview(!enablePublishPreview)}
                 />
