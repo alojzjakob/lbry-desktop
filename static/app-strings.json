@@ -1314,5 +1314,13 @@
   "Buy LBC": "Buy LBC",
   "Continue...": "Continue...",
   "Mark all as read": "Mark all as read",
+  "Preparing...": "Preparing...",
+  "Confirm Publish": "Confirm Publish",
+  "Deposit": "Deposit",
+  "Transcode": "Transcode",
+  "Estimated transaction fee:": "Estimated transaction fee:",
+  "Est. transaction fee:": "Est. transaction fee:",
+  "Skip preview and confirmation": "Skip preview and confirmation",
+  "Publish Settings": "Publish Settings",
   "--end--": "--end--"
 }
